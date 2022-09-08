@@ -43,7 +43,7 @@ setuptools.setup(
     package_data={'': ['LICENSE']},
     package_dir={'aprs': 'aprs'},
     license=open('LICENSE').read(),
-    long_description=open('README.rst').read(),
+    long_description=open('README.rst', encoding='utf-8').read(),
     url='https://github.com/ampledata/aprs',
     zip_safe=False,
     include_package_data=True,
